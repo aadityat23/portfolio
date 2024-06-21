@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5db1a670ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="logo1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hello, I am <span>Aaditya</span><br>Thokal from India</h1>
+            </div>
+        </div>
+     </div>
+<!--------------about--------------->
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.1.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hi! I'm Aaditya Thokal, a passionate developer specializing in frontend development, software engineering, and app development. I love creating seamless user experiences and robust software solutions. My expertise lies in building intuitive and engaging user interfaces, developing scalable and maintainable software, and designing user-friendly mobile applications. With a blend of creativity and technical skills, I bring innovative ideas to life across both web and mobile platforms. Let's build something amazing together!</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link " onclick="opentab('skills')">Skils</p>
+                <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab " id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br>Website Development</li>
+                    <li><span>App Development</span><br>Building Android Applications</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2023</span><br>UI/UX Design Training</li>
+                    <li><span>2023-Current</span><br>Techincal Head of the Student Council</li>
+                    <li><span>2023</span><br>Software Engineering course from iitb</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2023</span><br>UI/UX Design Training</li>
+                    <li><span>2023-Current</span><br>B-Tech in Data Engineering from Universal College of Engineering</li>
+                    <li><span>2023</span><br>Software Engineering course from iitb</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<!---Services-->
+    <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="servies-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I offer professional web design services that combine creativity and technical expertise to create visually stunning and highly functional websites. My approach focuses on user-centric design, ensuring that every website I create is intuitive, engaging, and responsive across all devices. Whether you need a brand-new website or a redesign, I am dedicated to delivering a digital experience that not only meets but exceeds your expectations. Let's collaborate to bring your vision to life and make a lasting impression online.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>I provide expert UX/UI design services aimed at creating intuitive and engaging user experiences. My designs focus on user-centric principles, ensuring that every interface is both aesthetically pleasing and easy to navigate. From wireframes to final prototypes, I prioritize functionality and visual appeal to deliver designs that meet the needs of your users and enhance their overall experience. Let’s work together to craft interfaces that not only look great but also provide seamless user interactions.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Currently, I am immersing myself in the world of app development, learning to build high-quality, user-friendly mobile applications. As I progress in my journey, I am gaining the skills to bring innovative app ideas to life with robust, scalable, and efficient code. My focus is on creating applications that offer smooth and engaging user experiences. While I'm still learning, I am committed to developing apps that stand out and cater to your specific business needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+    </div>
+<!--------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1a.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur laboriosam perferendis, error placeat et labore commodi, nemo maiores eveniet libero impedit esse. Nulla obcaecati deleniti commodi velit, ipsum sint!</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2b.jpg">
+                <div class="layer">
+                    <h3>Online Book App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur laboriosam perferendis, error placeat et labore commodi, nemo maiores eveniet libero impedit esse. Nulla obcaecati deleniti commodi velit, ipsum sint!</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3c.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur laboriosam perferendis, error placeat et labore commodi, nemo maiores eveniet libero impedit esse. Nulla obcaecati deleniti commodi velit, ipsum sint!</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>aaditya.thokal24@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9987025977</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/stardust_waltzz/?igsh=Z3RueHh0Y2R5Njhy"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aaditya-thokal-523a322a5/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" id="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aaditya. Made with <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        } 
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right= '0';
+        }
+        function closemenu(){
+            sidemenu.style.right= '-200px';
+        }
+    </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                console.log('DOM fully loaded and parsed');
+    
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbx3XqZM2sEqpiAr2EWK0tDdtWWE3ueIHMaKd8kZpiBTEjTQdVyofbQDKejgmTgYiY5_bg/exec';
+                const form = document.forms['submit-to-google-sheet'];
+    
+                if (!form) {
+                    console.error('Form not found');
+                    return;
+                }
+    
+                console.log('Form:', form); // Check if the form is correctly selected
+    
+                form.addEventListener('submit', e => {
+                    e.preventDefault();
+                    console.log('Form submitted'); // Log form submission
+    
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('Success!', data);
+                            alert('Form successfully submitted!');
+                        })
+                        .catch(error => console.error('Error!', error.message));
+                });
+            });
+        </script>
+    
+</body>
+</html>
